@@ -31,7 +31,7 @@ def load(textfile,imagefile,new_filename):
     div_w =int(w / mw)
     div_h =int(h / mh)
 
-    cols = div_w + 1 
+    cols = div_w + 12 
     rows = div_h + 1
 
     overlapped_w=0
